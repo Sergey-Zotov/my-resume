@@ -6,29 +6,16 @@
     <meta name="keywords" content="ZotovSD" />
     <meta name="description" content="Summary of Sergey Dmitrievich Zotov" />
     <title>Resume</title>
-    <style>
-      .block {
-        background-color: rgb(207, 233, 255);
-        padding: 10px;
-        margin-bottom: 10px;
-      }
-      .wite {
-        background-color: white;
-        padding: 10px;
-        margin-bottom: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="color.css" />
   </head>
   <body>
-    <div class="block">
-      <h1>QA Automation Engineer Java</h1>
-      <img src="photo.png" alt="Моё фото" width="200" />
-      <h2>Зотов Сергей Дмитриевич</h2>
-    </div>
-
-    <section>
-      <article id="Personal information" class="block">
-        <h3>Личная информация</h3>
+    <div class="container">
+      <div id="photo" class="block">
+        <img src="photo.png" alt="Моё фото" width="200" class="wite" />
+      </div>
+      <div id="personal information" class="block">
+        <h1 class="wite">QA Automation Engineer Java</h1>
+        <p class="wite"><strong>ФИО:</strong> Зотов Сергей Дмитриевич</p>
         <p class="wite"><strong>Гражданство:</strong> Российская Федерация</p>
         <p class="wite">
           <strong>Дата рождения:</strong> 18 сентября 1989 (34 года)
@@ -36,9 +23,10 @@
         <p class="wite">
           <strong>Семейное положение:</strong> Женат (есть дети)
         </p>
-      </article>
-      <article id="about me" class="block">
-        <h3>О себе</h3>
+      </div>
+      <br />
+      <div id="about me" class="block">
+        <h3 class="wite">О себе</h3>
         <p class="wite">
           Я выбрал это направление, так как меня с детства привлекал мир IT. Я
           всегда горел миром цифровых технологий. 3 года назад у меня появилась
@@ -55,23 +43,30 @@
           «Искусство тестирования программ», смотрю различные обучающие видео по
           автоматизации тестирования.
         </p>
-      </article>
-      <article id="work experience" class="block">
-        <h3>Опыт работы</h3>
+      </div>
+      <br />
+      <div id="work experience" class="block">
+        <h3 class="wite">Опыт работы</h3>
         <article id="sberdevices" class="wite">
-          <p><strong>Компания:</strong> SberDevices</p>
-          <p><strong>Период работы:</strong> ноябрь 2023 - настоящее время</p>
-          <p><strong>Должность:</strong></p>
-          <p><strong>Обязаности:</strong></p>
+          <p class="wite"><strong>Компания:</strong> SberDevices</p>
+          <p class="wite">
+            <strong>Период работы:</strong> ноябрь 2023 - настоящее время
+          </p>
+          <p class="wite"><strong>Должность:</strong></p>
+          <p class="wite"><strong>Обязаности:</strong></p>
         </article>
         <article id="gazpron" class="wite">
-          <p><strong>Компания:</strong> АО «ГАЗПРОМБАНК», г. Москва</p>
-          <p>
+          <p class="wite">
+            <strong>Компания:</strong> АО «ГАЗПРОМБАНК», г. Москва
+          </p>
+          <p class="wite">
             <strong>Период работы:</strong>декабрь 2021 - ноябрь 2023(1год и 11
             месяцев)
           </p>
-          <p><strong>Должность:</strong> Ведущий инженер по тестированию</p>
-          <p>
+          <p class="wite">
+            <strong>Должность:</strong> Ведущий инженер по тестированию
+          </p>
+          <p class="wite">
             <strong>Обязаности:</strong><br />
             - Написание и поддержка UI и API автотестов с использованием BDD
             методологии (Cucumber, Gherkin).<br />
@@ -88,16 +83,16 @@
           </p>
         </article>
         <article id="i-teco" class="wite">
-          <p><strong>Компания:</strong> АО «Айтеко», г. Москва</p>
-          <p>
+          <p class="wite"><strong>Компания:</strong> АО «Айтеко», г. Москва</p>
+          <p class="wite">
             <strong>Период работы:</strong> февраль 2021 - декабрь 2021 (10
             месяцев)
           </p>
-          <p>
+          <p class="wite">
             <strong>Должность:</strong> Инженер по ручному функциональному
             тестированию
           </p>
-          <p>
+          <p class="wite">
             <strong>Обязаности:</strong><br />
             - Функциональное, интеграционное, регрессионное тестирование,
             тестирование миграции.<br />
@@ -115,7 +110,7 @@
             тестирования.
           </p>
         </article>
-      </article>
-    </section>
+      </div>
+    </div>
   </body>
 </html>
